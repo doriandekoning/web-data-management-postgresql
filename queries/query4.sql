@@ -1,0 +1,1 @@
+SELECT artist_id, array_agg(DISTINCT(array_length(bars_start, 1))) AS bars FROM songs GROUP BY artist_id

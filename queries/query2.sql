@@ -1,0 +1,1 @@
+SELECT duration - startoffadeout FROM songs WHERE 100 < tempo AND tempo < 130;
